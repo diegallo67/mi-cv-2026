@@ -1,33 +1,24 @@
-# CV Profesional de “Aarón > README.md
-git add README.md
-git commit -m Commit inicial
+# ING. AARÓN
+**Ingeniero en Sistemas en formación** | Veracruz, Ixtac México
 
-git branch develop
-git branch release
-git branch hotfixes
+Enfoque implacable en la arquitectura de software avanzada, resolución de problemas complejos mediante cálculo y física aplicada, y liderazgo orientado a resultados.
 
-for rama in header menu work-experience education skills certificates languages; do
-    git checkout develop
-    git checkout -b 
-    archivo=.md
-    if [  = work-experience ]; then archivo=experience.md; fi
-    echo ## Seccion  > 
-    git add 
-    git commit -m Agrega archivo 
-done
+---
 
-git checkout develop
-for rama in header menu work-experience education skills certificates languages; do
-    git merge --no-ff  -m Integra rama en develop
-done
+## Contacto
+* **Correo:** diegocruzguarneros@email.com
+* **Teléfono:** +52 272 334 5202
+* **Ubicación:** Veracruz, Ixtac México
+* **GitHub:** [github.com/diegallo67](https://github.com/diegallo67)
+* **Portafolio Web:** [diegallo67.github.io](https://diegallo67.github.io)
 
-git checkout main
-git merge --no-ff develop -m Version inicial en main 
+---
 
-
-git init
-git config user.name “diegallo67”
-git config user.email “traviscott98@gmail.com”
-
-git checkout -b main
-echo # CV Profesional de “Aarón
+## Secciones del Currículum
+* [Encabezado y Contacto](header.md)
+* [Experiencia y Proyectos](experience.md)
+* [Formación Académica](education.md)
+* [Habilidades y Competencias](skills.md)
+* [Logros y Certificados](certificates.md)
+* [Idiomas e Intereses](languages.md)
+* [Navegación](menu.md)
